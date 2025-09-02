@@ -8,8 +8,6 @@ logging.basicConfig(level=logging.INFO)
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
-
-# Регистрация обработчиков и уведомлений
 register_handlers(dp, bot)
 
 if __name__ == '__main__':
